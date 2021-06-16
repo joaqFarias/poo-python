@@ -19,7 +19,7 @@ class User:		# aqui está lo que tenemos hasta ahora
     #               cantidad y agrega esa cantidad al saldo de otro other_user
     def transfer_money (self, other_user: str, amount: int) -> None:
         self.account_balance -= amount
-        usuario3.account_balance += amount
+        other_user.account_balance += amount
             
             
 
